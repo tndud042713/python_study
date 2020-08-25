@@ -1,0 +1,38 @@
+설치.pdf 를 보고 설치 후 진행
+
+파이썬 프로그램은 3.6 버전 이상을 설치 하면 된다.
+python.org -> download -> windows -> executable 64bit 또는 32bit 다운로드
+
+visual studio code 
+-> download -> user installer 64bit 또는 32bit
+
+여러분 폴더 -> workspace 우클릭 -> code 로 열기
+
+VS code 가 영어 일 경우
+- Extensions -> korean 검색 -> korean langauge ... [install 클릭] -> 설치 완료 시 오른쪽 하단 reboot 클릭
+
+리부팅이 되면 한글로 되어 있을 것이다.
+- Extensions -> code runner 검색 - > install  : 리부팅 하지 않아도 된다.
+- Extensions -> masicpython 검색 - > install  : 리부팅 하지 않아도 된다.
+- Extensions -> python 검색 - > install  : 리부팅 하지 않아도 된다.
+
+파일 -> 기본 설정 -> 설정 -> 설정파일 열기 
+{
+    "files.autoSave": "afterDelay",  
+    "editor.fontSize": 36,
+    "terminal.integrated.fontSize": 24,
+    "python.linting.enabled": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "workbench.colorTheme": "Quiet Light",
+}
+
+    "files.autoSave": "afterDelay",  : 자동 저장 문제는  서버가 계속 끊어진다.
+    "editor.fontSize": 36, : 문자편집기 글자크기
+    "terminal.integrated.fontSize": 24, : 터미널 글자크기 - 25 사이즈가 최대
+    "python.linting.enabled": false, : 파이썬 코딩에 대한 오류 검사에 오류 방지
+    "code-runner.runInTerminal": true, : 터미널 창 실행
+    "code-runner.saveFileBeforeRun": true, : 실행전  자동으로 파일 저장
+    "workbench.colorTheme": "Quiet Light", : 전체 테마 변경
+
+
